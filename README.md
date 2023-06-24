@@ -31,15 +31,15 @@ Create a .env file in the project root directory.
 
 Add the following environment variables and replace the values with your own:
 
-PORT=3000
-DBurl = MongoDB Url for connect DataBase
-your_secret_key = your_secret_key_for_verify_cookie_or_token
+- PORT = 3000
+- DBurl = MongoDB Url for connect DataBase
+- your_secret_key = your_secret_key_for_verify_cookie_or_token
 
-GOOGLE_CLIENT_ID = Google api Client ID 
-GOOGLE_CLIENT_SECRET = Google api Client Secret we need this for authenticate with google function
+- GOOGLE_CLIENT_ID = Google api Client ID 
+- GOOGLE_CLIENT_SECRET = Google api Client Secret we need this for authenticate with google function
 
-GMAIL_USER = From which gmail you wan to send mail
-GMAIL_PASSWORD = this email "APP Password" for creating APP Password you go to manage your account -> security -> Search "APP password" -> create new -> then you get a 16 digit password
+- GMAIL_USER = From which gmail you wan to send mail
+-GMAIL_PASSWORD = this email "APP Password" for creating APP Password you go to manage your account -> security -                    > Search "APP password" -> create new -> then you get a 16 digit password
 
 # Start the application:
 
